@@ -1,0 +1,30 @@
+public class ActividadesMetodos {
+
+    // Método para mostrar un mensaje
+    public void mostrarMensaje(String mensaje) {
+        System.out.println(mensaje);
+    }
+
+    // Método para mostrar los días de la semana
+    public void mostrarDiaSemana() {
+        System.out.println("Lunes");
+        System.out.println("Martes");
+        System.out.println("Miércoles");
+        System.out.println("Jueves");
+        System.out.println("Viernes");
+        System.out.println("Sábado");
+        System.out.println("Domingo");
+    }
+
+    // Método principal
+    public static void main(String[] args) {
+
+        ActividadesMetodos obj = new ActividadesMetodos();
+
+        // Llamar al método de saludo
+        obj.mostrarMensaje("Hola, bienvenido");
+
+        // Llamar al método de días de la semana
+        obj.mostrarDiaSemana();
+    }
+}
