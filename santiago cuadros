@@ -7,6 +7,7 @@ public class ActividadesMetodos {
 
     // Método para mostrar los días de la semana
     public void mostrarDiaSemana() {
+        System.out.println("Dias de la semana");
         System.out.println("Lunes");
         System.out.println("Martes");
         System.out.println("Miércoles");
@@ -15,7 +16,14 @@ public class ActividadesMetodos {
         System.out.println("Sábado");
         System.out.println("Domingo");
     }
-
+    // metodo de retorno de multiplicacion de numeros 
+    public static void multiplicacion(int a) {
+        for (int i = 0; i < 10; i++) {
+        int resultado = a * i;
+        System.out.print(a + " x " + i + " = " + resultado + "\n");
+        }
+        
+    }
     // Método principal
     public static void main(String[] args) {
 
@@ -26,5 +34,10 @@ public class ActividadesMetodos {
 
         // Llamar al método de días de la semana
         obj.mostrarDiaSemana();
+
+
+        int numero = 5; // Puedes cambiar este número para probar con otros valores
+        multiplicacion(numero);
+
     }
 }
